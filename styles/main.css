@@ -1,0 +1,245 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    font-family: 'Unbounded', cursive;
+    padding: 2rem 3rem;
+    box-shadow: 0px 1px 1px 0px rgba(31, 44, 55, 0.05);
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    color: #383838;
+}
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    
+}
+.nav-links {
+    display: flex;
+}
+.nav-links > li {
+    margin-left: 2rem;
+    list-style: none;
+    
+}
+.nav:hover {
+    font-weight: bold;
+
+}
+
+.logo span {
+    color: #714AE8;
+}
+
+.hero {
+   display: flex;
+   padding: 3rem;
+}
+img {
+    width: 50%;
+}
+.hero-text {
+    margin: auto 2rem auto;
+}
+.hero-text > p {
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 1rem;
+
+}
+.hero-text > h1 {
+    font-family: 'Unbounded', cursive;
+    font-size: 30px;
+}
+footer {
+    background-color: #1A1A1A;
+    color: #ffffff;
+    font-family: 'General Sans';
+    text-align: center;
+    padding: 2rem;
+    margin-top: auto;
+}
+.btn {
+    background-color: #714AE8;
+    border: none;
+    border-radius: 5px;
+    padding: .9rem 1.5rem;
+    color: #fff;
+    margin-top: 2rem;
+    font-size: 18px;
+}
+.btn:hover {
+    background-color: #4108ea;
+    padding: 1rem 1.7rem;
+}
+.features {
+    padding: 3rem;
+    background-color: #f5f5f8;
+}
+.features > h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Unbounded', cursive;
+}
+
+.feature-img {
+    border: 2px solid rgba(125, 126, 127, 0.05);
+    border-radius: 10px;
+}
+.features-block {
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 10px 10px 5px 12px rgb(185, 173, 230);
+    width: 80%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem auto;
+}
+.features-block:hover {
+    box-shadow: 5px 5px 8px 10px rgb(185, 173, 230); 
+}
+
+.features-block > h2 {
+    font-size: 20px;
+    font-family: 'Unbounded', cursive;
+    padding-top: 1rem;
+    font-style: italic;
+}
+.features-block > p {
+    font-size: 14px;
+    padding-top: 1rem;
+}
+.about{
+    padding: 3rem;
+    width: 60%;
+    margin: auto;
+}
+.about > h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Unbounded', cursive; 
+}
+.about > p {
+    padding-top: 1rem;
+}
+.fa {
+    margin-right: .5rem;
+}
+.contact {
+    font-weight: bold;
+    font-style: italic;
+}
+.contact-link {
+    margin-left: 1rem;
+}
+.footer-link {
+    color: #fff;
+}
+.note {
+    font-weight: bolder;
+    
+}
+.hol {
+    font-weight: bolder;
+    text-decoration: underline;
+    font-style: Italic;
+}
+.alx {
+    padding-top: 2rem;
+    font-size: 14px;
+    text-align: right;
+}
+.features-cat {
+    margin: auto 2rem;
+}
+.video {
+    margin: auto;
+    padding: 1rem 3rem;
+}
+.icon {
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .logo {
+        font-size: 15px;
+
+    }
+    .features-block {
+        display: block;
+    }
+    .hero {
+        display: block;
+        padding: 1rem;
+    }
+    img {
+        width: 100%;
+    }
+    .features, .about{
+        padding: 1rem;
+    }
+    .features > h1 {
+        font-size: 22px;
+    }
+    .alx {
+        text-align: center;
+    }
+    .hero-text > h1 {
+        font-size: 22px;
+    }
+    .features-block {
+        padding: .4rem;
+        box-shadow: 6px 6px 3px 7px rgb(185, 173, 230);
+    }
+    .features-block > h2 {
+        font-size: 16px;
+    }
+    .features-block > p {
+        font-size: 11px;;
+    }
+    .hero-text > p {
+        font-size: 16px;
+    }
+    .video {
+        padding: 1rem;
+    }
+    .about {
+        width: 100%;
+        padding: 1rem;
+    }
+    .nav-links.responsive {
+        position: relative;
+        display: block;
+        background-color: #f5f5f8;
+        padding: 1.5rem;
+        border-radius: 10px;
+    }
+    .nav-links.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .nav-links.responsive a {
+      display: block;
+    }
+    .nav {
+        display: none;
+        margin-top: .5rem;
+    }
+    .nav-links a.icon {
+      display: block;
+    }
+}

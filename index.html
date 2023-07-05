@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" type="text/css" href="../styles/main.css"> -->
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="top-part">
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href="/">Bookish<span>Reads</span></a>
+                </div>
+                
+                <ul class="nav-links" id="top-nav">
+                    <li> <a href='/' class="nav">Home</a></li>
+                    <li><a href='#features-for' class="nav">Features</a></li>
+                    <li><a href='#about-us' class="nav">About</a></li>
+                    <li><a href="javascript:void(0);" class="icon" onclick="navFunction()">
+                        <i class="fa fa-bars"></i>
+                      </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="hero">
+                <img src="../images/book_hero.jpeg">
+                <div class="hero-text">
+                    <h1>Are you searching for your next literary adventure?</h1>
+                    <p>Discover books you'll love</p>
+                    <a href='https://bookishreads.onrender.com/'>
+                        <button class="btn">Get Started</button>
+                    </a>
+                </div>
+                
+            </div>
+        </header>
+
+        <section class="features" id="features-for">
+            <h1>Features</h1>
+            <div class="features-text">
+                <div class="features-block">
+                    <img src="../images/popular_books.png" alt="genre-recommendation" class="feature-img">
+                    <div class="features-cat">
+                        <h2>Genre Categories</h2>
+                    <p>Displays a list or grid of popular book genres or categories, allowing users to browse recommendations based on their interests.</p>
+                    </div>
+                    
+                </div>
+                <div class="features-block">
+                    <img src="../images/bookishread_recommendations.png" alt="personalized-recommendation" class="feature-img">
+                    <div class="features-cat">
+                    <h2>Personalized recommendations</h2>
+                    <p>Provides a personalized recommendation feature where users can input a book title they've read to receive tailored book suggestions.</p>
+                    </div>
+                    
+                </div>
+                <div class="features-block">
+                    <img src="../images/bookishread_bookdetails.png" alt="book_details" class="feature-img">
+                    <div class="features-cat">
+                        <h2>Book details and Ratings</h2>
+                    <p>Includes book covers, titles, authors, book descriptions, and ratings for each recommended book. This information helps users make informed decisions about which books to explore further.</p>
+                    </div>
+                    
+                </div>
+                <div class="features-block">
+                    <img src="../images/user.png" alt="user" class="feature-img">
+                    <div class="features-cat">
+                        <h2>No User login required</h2>
+                    <p>We believe that reading is for everyone. That's why our book recommendation system doesn't require you to create an account or provide any personal information. Simply dive into our vast library of books and start exploring.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about-us">
+            <h1>About BookishReads</h1>
+            <p> At BookishReads, our mission is to ignite your passion for reading and help you discover your next favorite book. We believe that the right book can transport you to new worlds, evoke powerful emotions, and inspire personal growth. Our goal is to make your reading journey more delightful and enriching.</p>
+            <p> With our book recommendation system, we offer a personalized reading experience tailored to your unique tastes and interests. No matter if you're a seasoned bookworm or just starting your reading adventure, BookishReads is here to guide you.</p>
+            <p>Join thousands of avid readers who have discovered their next beloved book with BookishReads. We're passionate about fostering a love for literature and connecting readers with captivating stories. Let us be your trusted companion on your reading adventure.</p>
+
+            <p class="contact">You can feel free to reach out to us with any questions, feedback, or suggestions at;
+            <a href="https://www.linkedin.in/nnennaudefi" class="contact-link"><i class="fa fa-linkedin-square"></i>LinkedIn</a>
+            <a href="https://www.github.com/Nnenna-udefi" class="contact-link"> <i class="fa fa-github-square"></i>Github</a>
+            <a href="https://www.twitter.com/nnennaudefi" class="contact-link"><i class="fa fa-twitter-square"></i>Twitter</a>
+            <a href="#" class="contact-link"><i class="fa fa-google-plus-square"> </i> miriamudefi@gmail.com</a>
+            </p>
+            <div class="alx">
+                <p><span class="note">Note: </span> This is a Portfolio Project for <a href="https://intranet.alxswe.com/projects/565" class="hol">Holberton School</a></p>
+                <p>Here's the project github repository: https://github.com/Nnenna-udefi/bookishread_project</p>
+
+            </div>
+        </section>
+
+        <section class="video">
+            <video width="320" height="240" controls >
+                <source src="movie.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+        </section>
+
+    <footer>
+        <p>BookishReads. All rights reserved@2023</p>
+        <a href="https://www.linkedin.in/nnennaudefi" class="footer-link"><i class="fa fa-linkedin-square"></i></a>
+        <a href="https://www.github.com/Nnenna-udefi" class="footer-link"> <i class="fa fa-github-square"></i></a>
+        <a href="https://www.twitter.com/nnennaudefi" class="footer-link"><i class="fa fa-twitter-square"></i></a> 
+   </footer>
+        <script src="./script/main.js" ></script>
+</body>
+</html>
