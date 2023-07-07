@@ -173,6 +173,53 @@ footer {
 .icon {
     display: none;
 }
+.form-section {
+    padding: 3rem;
+    text-align: center;
+    background-color: #f5f5f8;
+}
+.form {
+    font-family: 'Plus Jakarta Sans', sans-serif; 
+}
+input {
+    width: 80%;
+    padding: 1rem;
+    border-radius: 4px;
+    margin: 1rem auto;
+    border: 2px solid #383838;
+}
+input:active, input:hover {
+   border: 2px solid #714AE8; 
+}
+.textarea {
+    height: 100px;
+}
+.input-btn {
+   background-color: #714AE8;
+   color: #fff;
+   border: none; 
+}
+.profile-img {
+    border-radius: 50px;
+    border: 3px solid #383838;
+    width: 200px;
+}
+.team-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #f5f5f8; */
+}
+.team-profile > div {
+    margin: 2rem 3rem;
+}
+h3 {
+    padding: 1rem 0;
+    font-size: 18px;
+}
+.team {
+    text-align: center;
+}
 @media only screen and (max-width: 600px) {
     .logo {
         font-size: 15px;
@@ -241,5 +288,8 @@ footer {
     }
     .nav-links a.icon {
       display: block;
+    }
+    .profile-img {
+        width: 100px;
     }
 }
