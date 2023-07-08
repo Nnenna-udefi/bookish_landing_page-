@@ -167,8 +167,11 @@ footer {
     margin: auto 2rem;
 }
 .video {
-    margin: auto;
     padding: 1rem 3rem;
+}
+.main-video {
+    display: block;
+    margin: 2rem auto;
 }
 .icon {
     display: none;
