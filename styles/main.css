@@ -100,11 +100,11 @@ footer {
 
 .feature-img {
     border: 2px solid rgba(125, 126, 127, 0.05);
-    background-color: #9e8bd6;
-    color: #fff;
+    filter: grayscale(10);
     border-radius: 10px;
-    width: 50px;
+    width: 40px;
     margin: 0 2rem;
+    padding: .2rem;
 }
 .features-block {
     border-radius: 10px;
@@ -142,6 +142,7 @@ footer {
 }
 .about > p {
     padding-top: 1rem;
+    text-align: center;
 }
 .fa {
     margin-right: .5rem;
